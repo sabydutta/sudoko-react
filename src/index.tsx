@@ -10,6 +10,9 @@ import { GlobalStyles, theme } from 'styles'
 
 const { persistor, store } = configureStore()
 
+
+
+
 ReactDOM.render(
   <ThemeProvider theme={theme}>
     <GlobalStyles />
